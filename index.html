@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0B0D10">
+  <meta name="description" content="Spyhop: estratégia, identidade e marketing digital para marcas que querem ir além da superfície.">
+  <meta property="og:title" content="Spyhop — Além da superfície.">
+  <meta property="og:description" content="Estratégia, criatividade e direção para a sua marca fazer ondas.">
+  <meta property="og:type" content="website">
+
+ <title>Spyhop® — Além da superfície.</title>
+
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Logo e ícones utilizados na página -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <defs>
+      <symbol id="logo-mark" viewBox="0 0 540 262">
+        <path fill="#F3F4F1" d="M8 85C37 33 85 3 148 3h227c-22 35-42 56-79 56H150c-31 0-52 10-66 32-2 4-1 7 3 9 6 4 14 5 26 5h112c49 0 79 28 112 76-26 51-65 80-125 80H8c21-36 47-57 83-57h122c19 0 36-6 46-22-11-15-27-23-48-23H95c-49 0-72-23-87-55-3-6-3-13 0-19Z"/>
+        <path fill="#F3F4F1" d="M282 96h190V77c0-34 24-63 66-75v203c0 36-23 57-66 57V153H335l-53-57Z"/>
+      </symbol>
+
+      <symbol id="arrow-mark" viewBox="0 0 24 24">
+        <path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="star-mark" viewBox="0 0 24 24">
+        <path d="M12 1v22M1 12h22M4.2 4.2l15.6 15.6M4.2 19.8 19.8 4.2" stroke="currentColor" stroke-width="3.5"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Spyhop — início">
+      <svg class="brand-symbol" viewBox="0 0 540 262" width="50" height="25" aria-hidden="true">
+        <use href="#logo-mark"/>
+      </svg>
+      <span>spyhop<span class="registered">®</span></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#essencia">Nossa essência</a>
+      <a href="#solucoes">O que fazemos</a>
+      <a href="#experiencia">A experiência</a>
+    </nav>
+
+    <button class="header-cta" data-contact="conversa">
+      Vamos conversar
+      <span aria-hidden="true">
+        <svg class="icon" viewBox="0 0 24 24" fill="none">
+          <use href="#arrow-mark"/>
+        </svg>
+      </span>
+    </button>
+
+    <button class="menu-button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegação no celular" hidden>
+    <a href="#essencia">Nossa essência</a>
+    <a href="#solucoes">O que fazemos</a>
+    <a href="#experiencia">A experiência</a>
+
+    <button data-contact="conversa">
+      Vamos conversar
+      <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <use href="#arrow-mark"/>
+      </svg>
+    </button>
+  </nav>
+
+  <main id="conteudo">
+
+    <!-- Primeira tela -->
+    <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-halo"></div>
+        <canvas class="hero-waves"></canvas>
+      </div>
+
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow">
+          <span class="status-dot"></span>
+          SUA MARCA. UM NOVO HORIZONTE.
+        </div>
+
+        <h1 id="hero-title">
+          <span class="hero-title-line">O extraordinário</span>
+          <span class="hero-title-line">
+            começa <span class="hero-emphasis serif">além<svg class="hero-underline" viewBox="0 0 250 20" fill="none" aria-hidden="true"><path d="M3 13C67 2 148 0 246 7M17 18C98 9 176 6 235 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span> da superfície<span class="blue">.</span>
+          </span>
+        </h1>
+
+        <p>
+          Estratégia para ir mais fundo. Criatividade para chegar mais longe.<br>
+          Fazemos a sua marca <strong>fazer ondas.</strong>
+        </p>
+
+        <div class="hero-actions">
+          <button class="button button-blue" data-contact="orcamento">
+            Quero fazer ondas
+            <span aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <use href="#arrow-mark"/>
+              </svg>
+            </span>
+          </button>
+
+          <a class="text-link" href="#essencia">
+            Mergulhe na Spyhop
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <button class="hero-play" type="button" aria-label="Criar uma onda na abertura">
+          <svg class="hero-play-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M2 8c3-4 7 4 10 0s7 4 10 0M2 13c3-4 7 4 10 0s7 4 10 0M2 18c3-4 7 4 10 0s7 4 10 0" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+          <span data-wave-label>Faça uma onda. Veja o que acontece.</span>
+        </button>
+
+        <span class="sr-only" id="hero-wave-status" role="status"></span>
+      </div>
+
+      <div class="hero-bottom">
+        <a href="#essencia">
+          <span class="scroll-indicator" aria-hidden="true"></span>
+          ROLE PARA DESCOBRIR
+        </a>
+
+        <span>
+          BRASÍLIA, BR
+          <span class="blue">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <use href="#arrow-mark"/>
+            </svg>
+          </span>
+          CONECTADOS AO MUNDO
+        </span>
+
+        <span class="hero-bottom-right">MENOS RUÍDO. MAIS DIREÇÃO.</span>
+      </div>
+    </section>
+
+    <!-- Faixa animada -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>ESTRATÉGIA</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>CRIATIVIDADE</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>CONEXÃO</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>PERFORMANCE</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+
+        <span>ESTRATÉGIA</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>CRIATIVIDADE</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>CONEXÃO</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+        <span>PERFORMANCE</span>
+        <i><svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg></i>
+      </div>
+    </div>
+
+    <!-- Essência -->
+    <section class="essence section-wrap section-space" id="essencia" aria-labelledby="essence-title">
+      <div class="section-top">
+        <span class="eyebrow">
+          <span class="section-number">01</span>
+          NOSSA ESSÊNCIA
+        </span>
+        <span class="side-note">OBSERVAR. ENTENDER. TRANSFORMAR.</span>
+      </div>
+
+      <div class="essence-grid">
+        <div class="reveal">
+          <h2 id="essence-title">
+            Não é sobre aparecer.<br>
+            É sobre <span class="serif">ser sentido.</span>
+          </h2>
+
+          <div class="essence-description">
+            <p>
+              O oceano está cheio de marcas fazendo barulho.<br>
+              A sua pode ser aquela que muda a correnteza.
+            </p>
+
+            <p>
+              A Spyhop conecta estratégia, identidade e comunicação para construir
+              uma presença que faz sentido — para o seu negócio e para quem importa.
+            </p>
+
+            <a class="text-link" href="#solucoes">
+              Descubra como fazemos
+              <span aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none">
+                  <use href="#arrow-mark"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <div class="definition-card reveal">
+          <div class="definition-top">
+            <span>O INSTINTO POR TRÁS DA MARCA</span>
+            <span aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <use href="#arrow-mark"/>
+              </svg>
+            </span>
+          </div>
+
+          <div class="definition-mark" aria-hidden="true">
+            <svg class="brand-symbol" viewBox="0 0 540 262" width="122" height="59">
+              <use href="#logo-mark"/>
+            </svg>
+          </div>
+
+          <div>
+            <h3>spy·hop <span>/ˈspaɪ.hɒp/</span></h3>
+            <p>
+              Quando uma orca emerge para observar além da superfície.
+              Uma nova perspectiva antes do próximo movimento.
+            </p>
+          </div>
+
+          <div class="definition-footer">
+            <span>É ASSIM QUE A GENTE PENSA.</span>
+            <span class="blue" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <use href="#star-mark"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services section-wrap section-space" id="solucoes" aria-labelledby="services-title">
+      <div class="section-top">
+        <span class="eyebrow">
+          <span class="section-number">02</span>
+          O QUE FAZEMOS
+        </span>
+        <span class="side-note">CADA MARCA TEM SEU PRÓPRIO OCEANO.</span>
+      </div>
+
+      <div class="section-heading reveal">
+        <h2 id="services-title">
+          A direção certa.<br>
+          O impacto <span class="serif">que fica.</span>
+        </h2>
+        <p>
+          Da primeira ideia ao próximo movimento.<br>
+          Escolha uma frente e explore as possibilidades.
+        </p>
+      </div>
+
+      <div class="services-layout reveal">
+        <div class="service-tabs" role="tablist" aria-label="Soluções Spyhop" aria-orientation="vertical">
+          <button id="tab-estrategia" class="service-tab active" role="tab" aria-selected="true" aria-controls="panel-estrategia" data-service="estrategia">
+            <span class="tab-number">01</span>
+            <span>
+              Estratégia &amp; marca
+              <small>Antes de agir, uma direção.</small>
+            </span>
+            <span class="tab-arrow" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+            </span>
+          </button>
+
+          <button id="tab-conteudo" class="service-tab" role="tab" aria-selected="false" aria-controls="panel-conteudo" tabindex="-1" data-service="conteudo">
+            <span class="tab-number">02</span>
+            <span>
+              Conteúdo &amp; conexão
+              <small>Presença que gera conversa.</small>
+            </span>
+            <span class="tab-arrow" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+            </span>
+          </button>
+
+          <button id="tab-performance" class="service-tab" role="tab" aria-selected="false" aria-controls="panel-performance" tabindex="-1" data-service="performance">
+            <span class="tab-number">03</span>
+            <span>
+              Tráfego &amp; performance
+              <small>O alcance encontra o propósito.</small>
+            </span>
+            <span class="tab-arrow" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+            </span>
+          </button>
+        </div>
+
+        <div class="service-panels">
+          <article id="panel-estrategia" class="service-panel" role="tabpanel" aria-labelledby="tab-estrategia" tabindex="0">
+            <div class="service-visual" aria-hidden="true">
+              <div class="radar-ring ring-1"></div>
+              <div class="radar-ring ring-2"></div>
+              <div class="radar-ring ring-3"></div>
+              <div class="radar-cross"></div>
+              <span class="radar-center">
+                <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg>
+              </span>
+              <span class="radar-label">ENCONTRE O SEU NORTE</span>
+              <span class="radar-point point-1"></span>
+              <span class="radar-point point-2"></span>
+            </div>
+
+            <div class="service-panel-copy">
+              <span class="mini-label">CLAREZA ANTES DO MOVIMENTO</span>
+              <h3>Uma marca com personalidade.<br>E um caminho para crescer.</h3>
+              <p>
+                Entendemos seu negócio, seu público e o que torna a sua marca
+                única para transformar intenção em direção.
+              </p>
+              <div class="pills">
+                <span>Posicionamento</span>
+                <span>Identidade visual</span>
+                <span>Planejamento</span>
+              </div>
+              <button class="text-link" data-contact="orcamento" data-topic="Estratégia e marca">
+                Quero encontrar minha direção
+                <span aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+                </span>
+              </button>
+            </div>
+          </article>
+
+          <article id="panel-conteudo" class="service-panel" role="tabpanel" aria-labelledby="tab-conteudo" tabindex="0" hidden>
+            <div class="service-visual content-visual" aria-hidden="true">
+              <span class="visual-big-symbol">“</span>
+              <div class="floating-label">SUA VOZ.</div>
+              <div class="floating-label second-label">A CONEXÃO CERTA.</div>
+            </div>
+
+            <div class="service-panel-copy">
+              <span class="mini-label">PRESENÇA COM PERSONALIDADE</span>
+              <h3>Conteúdo que aproxima.<br>Uma marca que conversa.</h3>
+              <p>
+                Transformamos a essência da sua marca em histórias e experiências
+                que despertam interesse e criam conexões.
+              </p>
+              <div class="pills">
+                <span>Redes sociais</span>
+                <span>Direção criativa</span>
+                <span>Copywriting</span>
+              </div>
+              <button class="text-link" data-contact="orcamento" data-topic="Conteúdo e conexão">
+                Quero conectar minha marca
+                <span aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+                </span>
+              </button>
+            </div>
+          </article>
+
+          <article id="panel-performance" class="service-panel" role="tabpanel" aria-labelledby="tab-performance" tabindex="0" hidden>
+            <div class="service-visual performance-visual" aria-hidden="true">
+              <div class="chart-bars">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <span class="radar-label">CRESCER COM INTENÇÃO</span>
+              <span class="chart-arrow">
+                <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+              </span>
+            </div>
+
+            <div class="service-panel-copy">
+              <span class="mini-label">MAIS INTENÇÃO EM CADA CLIQUE</span>
+              <h3>A mensagem certa.<br>Para quem precisa ouvir.</h3>
+              <p>
+                Conectamos campanhas, páginas e análise para aproximar sua marca
+                das pessoas certas e evoluir a cada movimento.
+              </p>
+              <div class="pills">
+                <span>Tráfego pago</span>
+                <span>Landing pages</span>
+                <span>Análise de campanhas</span>
+              </div>
+              <button class="text-link" data-contact="orcamento" data-topic="Tráfego e performance">
+                Quero ampliar meu alcance
+                <span aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+                </span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparador interativo -->
+    <section class="experience section-space" id="experiencia" aria-labelledby="experience-title">
+      <div class="section-wrap">
+        <div class="section-top">
+          <span class="eyebrow">
+            <span class="section-number">03</span>
+            SINTA A DIFERENÇA
+          </span>
+          <span class="side-note">UM PEQUENO EXPERIMENTO.</span>
+        </div>
+
+        <div class="experience-intro reveal">
+          <span class="experiment-tag">
+            <span class="status-dot"></span>
+            ARRASTE. DESCUBRA. SINTA.
+          </span>
+          <h2 id="experience-title">
+            Mesma marca.<br>
+            Outra <span class="serif">profundidade.</span>
+          </h2>
+          <p>
+            Uma ideia muda quando ganha direção.<br>
+            Deslize para explorar duas formas de contar a mesma história.
+          </p>
+        </div>
+
+        <div class="comparison reveal" style="--split:50%">
+          <div class="compare-side compare-after">
+            <span class="compare-kicker">COM ESTRATÉGIA</span>
+
+            <div class="after-content">
+              <svg class="brand-symbol" viewBox="0 0 540 262" width="60" height="29" role="img" aria-label="Spyhop">
+                <use href="#logo-mark"/>
+              </svg>
+              <h3>
+                Não siga<br>
+                a correnteza.<br>
+                <span class="serif">Crie a sua.</span>
+              </h3>
+              <span class="mock-cta">
+                Seu próximo movimento
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#arrow-mark"/></svg>
+              </span>
+            </div>
+
+            <div class="compare-orbits" aria-hidden="true">
+              <i></i><i></i><i></i>
+              <span>
+                <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#star-mark"/></svg>
+              </span>
+            </div>
+
+            <span class="compare-footnote">CLAREZA. PERSONALIDADE. CONEXÃO.</span>
+          </div>
+
+          <div class="compare-side compare-before">
+            <span class="compare-kicker">SEM DIREÇÃO</span>
+
+            <div class="before-content">
+              <span class="generic-brand">SUA MARCA</span>
+              <span class="generic-pill">AS MELHORES SOLUÇÕES</span>
+              <h3>Qualidade e<br>compromisso<br>para você.</h3>
+              <p>
+                Conheça nossos produtos e serviços.<br>
+                Entre em contato para saber mais.
+              </p>
+              <span class="generic-button">Saiba mais</span>
+            </div>
+
+            <span class="compare-footnote">
+              UMA MENSAGEM QUE PODERIA SER DE QUALQUER UM.
+            </span>
+          </div>
+
+          <div class="comparison-divider" aria-hidden="true">
+            <span>‹ <i></i> ›</span>
+          </div>
+
+          <label class="sr-only" for="comparison-slider">
+            Comparar comunicação sem direção e com estratégia
+          </label>
+
+          <input
+            id="comparison-slider"
+            class="comparison-slider"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            aria-valuetext="50% sem direção, 50% com estratégia"
+          >
+        </div>
+
+        <p class="comparison-hint">
+          <span aria-hidden="true">↔</span>
+          Arraste a linha para comparar
+          <span>EXEMPLO CONCEITUAL · SPYHOP</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Processo -->
+    <section class="process section-wrap section-space" id="processo" aria-labelledby="process-title">
+      <div class="section-top">
+        <span class="eyebrow">
+          <span class="section-number">04</span>
+          NOSSO MOVIMENTO
+        </span>
+        <span class="side-note">PROFUNDIDADE EM CADA ETAPA.</span>
+      </div>
+
+      <div class="section-heading reveal">
+        <h2 id="process-title">
+          Da primeira conversa<br>
+          ao próximo <span class="serif">horizonte.</span>
+        </h2>
+        <p>
+          Boa parceria tem escuta, clareza e troca.<br>
+          É assim que começamos a fazer ondas juntos.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <article class="process-card reveal">
+          <span class="process-index">01 /</span>
+          <div class="process-icon" aria-hidden="true">◎</div>
+          <h3>Imersão</h3>
+          <p>
+            Ouvimos sua história, entendemos o cenário e descobrimos
+            onde sua marca quer chegar.
+          </p>
+          <span class="process-word">ANTES DE TUDO, ESCUTAR.</span>
+        </article>
+
+        <article class="process-card reveal">
+          <span class="process-index">02 /</span>
+          <div class="process-icon" aria-hidden="true">⌖</div>
+          <h3>Direção</h3>
+          <p>
+            Conectamos os pontos para construir uma estratégia com
+            personalidade e objetivos claros.
+          </p>
+          <span class="process-word">CADA MOVIMENTO TEM UM PORQUÊ.</span>
+        </article>
+
+        <article class="process-card reveal">
+          <span class="process-index">03 /</span>
+          <div class="process-icon" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+          </div>
+          <h3>Movimento</h3>
+          <p>
+            Tiramos as ideias do papel, acompanhamos o caminho
+            e evoluímos com o seu negócio.
+          </p>
+          <span class="process-word">CRIAR. APRENDER. IR ALÉM.</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Perguntas frequentes -->
+    <section class="faq section-wrap section-space" aria-labelledby="faq-title">
+      <div class="faq-heading reveal">
+        <span class="eyebrow">
+          <span class="section-number">05</span>
+          SEM FICAR NA SUPERFÍCIE
+        </span>
+
+        <h2 id="faq-title">
+          Antes de<br>
+          <span class="serif">mergulhar.</span>
+        </h2>
+
+        <p>Ficou com alguma dúvida?<br>A conversa está sempre aberta.</p>
+
+        <button class="text-link" data-contact="duvida">
+          Pergunte para a gente
+          <span aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+          </span>
+        </button>
+      </div>
+
+      <div class="faq-list reveal">
+        <details>
+          <summary>
+            A Spyhop é para a minha marca?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Se você busca uma presença com mais clareza, personalidade e direção,
+            vale conversar. O primeiro passo é entender seu momento e avaliar
+            juntos como podemos ajudar.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Preciso contratar todos os serviços?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Não. A proposta parte do que a sua marca precisa agora.
+            Podemos conversar sobre uma frente específica ou sobre uma
+            estratégia que conecte diferentes soluções.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Como funciona o orçamento?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Começamos pelo seu desafio, objetivos e escopo.
+            A partir dessa conversa, elaboramos uma proposta com
+            entregas e condições para você avaliar.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Vocês atendem fora de Brasília?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Sim. A conversa e o desenvolvimento do projeto podem acontecer online.
+            Conte onde você está e o que precisa para alinharmos o melhor formato.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Como agendo uma primeira conversa?
+            <span aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Toque em “Agendar uma conversa”, conte um pouco sobre sua marca
+            e sugira um dia ou horário no WhatsApp.
+            A equipe confirma a disponibilidade com você.
+          </p>
+          <button class="text-link" data-contact="agendamento">
+            Agendar uma conversa
+            <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#arrow-mark"/></svg>
+          </button>
+        </details>
+      </div>
+    </section>
+
+    <!-- Chamada final -->
+    <section class="contact-section section-wrap" id="contato" aria-labelledby="contact-title">
+      <div class="contact-orbit" aria-hidden="true"></div>
+
+      <span class="eyebrow">
+        <span class="status-dot"></span>
+        O PRÓXIMO MOVIMENTO É SEU.
+      </span>
+
+      <h2 id="contact-title">
+        Pronto para<br>
+        fazer <span class="serif">ondas?</span>
+        <span class="blue">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#arrow-mark"/></svg>
+        </span>
+      </h2>
+
+      <div class="contact-bottom">
+        <p>Sua marca tem muito para mostrar.<br>Vamos descobrir isso juntos.</p>
+
+        <div class="contact-actions">
+          <button class="button button-blue" data-contact="orcamento">
+            Quero um orçamento
+            <span aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+            </span>
+          </button>
+
+          <button class="text-link" data-contact="agendamento">
+            Agendar uma conversa
+            <span aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <div class="footer-main">
+      <a class="brand" href="#inicio" aria-label="Spyhop — voltar ao início">
+        <svg class="brand-symbol" viewBox="0 0 540 262" width="50" height="25" aria-hidden="true">
+          <use href="#logo-mark"/>
+        </svg>
+        <span>spyhop<span class="registered">®</span></span>
+      </a>
+
+      <p>Além da superfície.</p>
+
+      <a href="#inicio" class="back-top">
+        VOLTAR AO TOPO
+        <span aria-hidden="true">↑</span>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> SPYHOP. FEITO COM INTENÇÃO.</span>
+      <span>ESTRATÉGIA · CRIATIVIDADE · CONEXÃO</span>
+
+      <button class="footer-contact" data-contact="conversa">
+        Vamos conversar
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="#arrow-mark"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Modal de contato -->
+  <dialog id="contact-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <button class="dialog-close" aria-label="Fechar conversa">×</button>
+
+      <span class="eyebrow">
+        <span class="status-dot"></span>
+        VAMOS FAZER ONDAS.
+      </span>
+
+      <h2 id="dialog-title">
+        Uma boa conversa.<br>
+        Um novo <span class="serif">começo.</span>
+      </h2>
+
+      <p class="dialog-description">
+        Conte um pouco sobre você e continue direto no WhatsApp.
+      </p>
+
+      <form id="contact-form">
+        <fieldset>
+          <legend>Qual é o seu próximo movimento?</legend>
+
+          <div class="intent-options">
+            <label>
+              <input type="radio" name="intent" value="orcamento" checked>
+              <span>Pedir orçamento</span>
+            </label>
+
+            <label>
+              <input type="radio" name="intent" value="agendamento">
+              <span>Agendar conversa</span>
+            </label>
+
+            <label>
+              <input type="radio" name="intent" value="duvida">
+              <span>Tirar dúvidas</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <label class="field-label" for="contact-name">
+          Como podemos chamar você?
+        </label>
+        <input class="form-input" id="contact-name" name="name" autocomplete="given-name" placeholder="Seu nome" required maxlength="80">
+
+        <label class="field-label" for="contact-topic">
+          O que sua marca precisa?
+        </label>
+        <select class="form-input" id="contact-topic" name="topic">
+          <option value="Quero descobrir o melhor caminho">Quero descobrir o melhor caminho</option>
+          <option>Estratégia e marca</option>
+          <option>Conteúdo e conexão</option>
+          <option>Tráfego e performance</option>
+          <option>Um projeto completo</option>
+        </select>
+
+        <label class="field-label" for="contact-person">
+          Com quem você quer conversar?
+        </label>
+        <select class="form-input" id="contact-person" name="person">
+          <option value="joao">João Victor</option>
+          <option value="karlos">Karlos Eduardo</option>
+        </select>
+
+        <label class="field-label" for="contact-message">
+          Algo mais? <span>(opcional)</span>
+        </label>
+        <textarea class="form-input" id="contact-message" name="message" rows="2" maxlength="1200" placeholder="Seu desafio, sua ideia ou um horário para conversar..."></textarea>
+
+        <button class="button button-blue form-submit" type="submit">
+          Continuar no WhatsApp
+          <span aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none"><use href="#arrow-mark"/></svg>
+          </span>
+        </button>
+
+        <p class="form-note">
+          Você revisa a mensagem no WhatsApp antes de enviar.
+        </p>
+        <p id="contact-feedback" class="contact-feedback" role="status"></p>
+      </form>
+    </div>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-note">
+      Para conversar com a Spyhop,
+      <a href="https://wa.me/5561999988403" target="_blank" rel="noopener noreferrer">
+        abra o WhatsApp do João Victor
+      </a>.
+    </div>
+  </noscript>
+</body>
+</html>
